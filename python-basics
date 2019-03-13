@@ -43,6 +43,19 @@ numbers = [1,2,3,6]
 def sumOfListNumbers(someList):
     # your solution
 
+
+def sumOfList(numbers):
+    total = 0
+    for item in numbers:
+        total = total + item
+
+    print(total)
+
+numbers = input('Insert a list of numbers using the format a,b,c... : ')
+
+sumOfList(numbers)
+
+
     
 
 # Program checker (do not change the lines below)    
