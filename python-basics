@@ -1,0 +1,51 @@
+"""
+Python does offer magic methods like sum() and others, please try to write down your algorithms or coding 
+instructions clearly without using any shortcuts
+"""
+# Multiply 3 and any number
+def mult(number):
+    # complete your code
+
+    number = int(input('Which number do you want to multiply by 3? '))
+    def mult(number):
+        result = 3 * number
+        return result
+    print('The answer for mult(%d) is: ' % number)
+    print(mult(number))
+
+
+    
+    
+    
+    
+    
+# adds two numbers together
+def add(a, b):
+    # complete with your solution
+
+    a = int(input('You are going to add two numbers together. Indicate which is the first one: '))
+    b = int(input('And the second one? '))
+
+    def add(a,b):
+        result2 = a + b
+        return result2
+    print('The answer for add(%d,%d) is: ' % (a,b))
+    print(add(a,b))
+
+
+
+"""
+Using data structures like list, can you find the total or the values in that list.
+Do not use a function like sum(someList), that would be cheating ;-)
+"""
+# Data structure
+numbers = [1,2,3,6]
+def sumOfListNumbers(someList):
+    # your solution
+
+    
+
+# Program checker (do not change the lines below)    
+assert sumOfList(numbers) == 12
+assert mult(3) == 9
+assert add(1,3) == 4
